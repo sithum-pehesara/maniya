@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ManiYa | Official Website</title>
+    <meta name="description" content="Official website for ManiYa (Manitha Abeysiriwardana) - Sri Lankan Content Creator, Streamer, and Entertainer.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Mani<span>Ya</span></div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#videos">Latest Content</a>
+            <a href="#socials">Socials</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="MANIYA">MANIYA</h1>
+            <p class="subtitle">Creator. Gamer. Entertainer.</p>
+            <div class="cta-buttons">
+                <a href="#videos" class="btn btn-primary">Watch Latest</a>
+                <a href="https://www.youtube.com/@ManiYaOfficial" target="_blank" class="btn btn-secondary">
+                    <i class="fa-brands fa-youtube"></i> Subscribe
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">Who is <span>ManiYa?</span></h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p><strong>Manitha Abeysiriwardana</strong>, widely known as <strong>ManiYa</strong>, is one of Sri Lanka's most prominent digital content creators. Known for his high-energy, sarcastic, and wildly entertaining videos, he has captivated a massive audience across multiple platforms.</p>
+                    <p>From parody videos and meme reviews to thrilling gaming streams featuring "The B Gang", ManiYa's unique style has redefined the Sri Lankan YouTube landscape. In early 2020, he was recognized as the <em>Most Popular Upcoming YouTube Channel</em> at the Raigam Social Media Awards.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fa-brands fa-youtube"></i>
+                        <h3>Gaming & Vlogs</h3>
+                        <p>Diverse content ranging from CS2 to real-life parodies.</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-trophy"></i>
+                        <h3>Award Winning</h3>
+                        <p>Recognized for his rapid rise and unique creativity.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="videos" class="videos-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Latest <span>Content</span></h2>
+                <a href="https://www.youtube.com/@ManiYaOfficial" target="_blank" class="view-all">View All <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            
+            <!-- Video Container Injected by JS -->
+            <div id="video-container" class="video-grid">
+                <!-- Loader -->
+                <div class="loader">
+                    <i class="fa-solid fa-circle-notch fa-spin"></i> Loading Videos...
+                </div>
+            </div>
+            
+            <div class="live-action">
+                <h3>Catch ManiYa Live</h3>
+                <p>Check if ManiYa is streaming right now!</p>
+                <div class="live-buttons">
+                    <a href="https://www.youtube.com/@ManiYaStreams/streams" target="_blank" class="live-btn yt-live">
+                        <i class="fa-solid fa-satellite-dish"></i> YouTube Streams
+                    </a>
+                    <a href="https://www.facebook.com/officialmaniya" target="_blank" class="live-btn fb-live">
+                        <i class="fa-brands fa-facebook"></i> Facebook Gaming
+                    </a>
+                    <a href="https://kick.com/maniya" target="_blank" class="live-btn kick-live">
+                        <i class="fa-brands fa-kickstarter"></i> Kick
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="socials" class="socials-section">
+        <div class="container">
+            <h2 class="section-title">Join The <span>Community</span></h2>
+            <div class="social-links">
+                <a href="https://www.youtube.com/@ManiYaOfficial" target="_blank" class="social-card yt">
+                    <i class="fa-brands fa-youtube"></i>
+                    <span>Main Channel</span>
+                </a>
+                <a href="https://www.youtube.com/@ManiYaStreams" target="_blank" class="social-card yt-stream">
+                    <i class="fa-brands fa-youtube"></i>
+                    <span>Streams Channel</span>
+                </a>
+                <a href="https://www.facebook.com/officialmaniya" target="_blank" class="social-card fb">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <span>Facebook Page</span>
+                </a>
+                <a href="https://kick.com/maniya" target="_blank" class="social-card kick">
+                    <i class="fa-brands fa-kickstarter-k"></i>
+                    <span>Kick Streams</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">Mani<span>Ya</span></div>
+            <p>&copy; <span id="year"></span> ManiYa. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
